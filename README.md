@@ -21,6 +21,8 @@
   ## Usage
   Navigate to the webpage and use the links to navigate between pages.
 
+  https://japetersonportfolio.netlify.app/
+
   ## Apache 2.0 License
 
   Copyright [2025] [name of copyright owner]
