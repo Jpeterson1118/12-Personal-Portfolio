@@ -4,8 +4,8 @@ import './form.css';
 import validateEmail from '../utils/validateEmail';
 
 export default function Form() {
-    const [email, setEmail] = useState('');
     const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
     const [message, setMessage] = useState('')
 
 
@@ -48,24 +48,24 @@ export default function Form() {
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                     value={name}
-                    name="userName"
+                    name="name"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder="username"
+                    placeholder="Name"
                 />
                 <input
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
-                    placeholder="email"
+                    placeholder="Email"
                 />
                 <input
                     value={message}
-                    name="password"
+                    name="message"
                     onChange={handleInputChange}
-                    type="password"
-                    placeholder='password'
+                    type="text"
+                    placeholder='Message'
                 />
                 <button type="submit">
                     Submit
