@@ -6,39 +6,34 @@ function Nav() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-tabs d-flex align-items-end">
+      <li className="nav-item border rounded-top">
         <Link
           to="/"
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
           About Me
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item border rounded-top">
         <Link
-          to="/contact"
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          to="contact"
           className={currentPage === '/contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item border rounded-top">
         <Link
-          to="/portfolio"
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          to="portfolio"
           className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item border rounded-top">
         <Link
-          to="/resume"
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          to="resume"
           className={currentPage === '/resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume

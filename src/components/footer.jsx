@@ -1,8 +1,16 @@
+import gitLogo from '../assets/github-mark-white.png'
+import Linkdin from '../assets/Li-In-Bug.png'
+
+
 export default function Footer() {
-    <footer className="footer d-flex justify-content-center p-4">
-        <ul>
-            <li><a href="https://github.com/Jpeterson1118"><img src="assets/github-mark-white.png" alt="github logo" /></a></li>
-            <li><a href="https://www.linkedin.com/in/jacob-peterson-0107a015a/"><img src="assets/Li-In-Bug.png" alt="Linkdin logo" /></a></li>
-        </ul>
-    </footer>
+    return (
+        <footer className="d-flex justify-content-center align-items-center py-3 bg-dark">
+            <a href="https://github.com/Jpeterson1118">
+                <img src={gitLogo} alt="GitHub logo" className="link-image mx-2" />
+            </a>
+            <a href="https://www.linkedin.com/in/jacob-peterson-0107a015a/">
+                <img src={Linkdin} alt="LinkedIn logo" className="link-image mx-2" />
+            </a>
+        </footer>
+    )
 }
