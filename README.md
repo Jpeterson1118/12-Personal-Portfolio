@@ -1,12 +1,53 @@
-# React + Vite
+# readme
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0);
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ## Description
 
-Currently, two official plugins are available:
+  My personal portfoilio website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Table of Contents
 
-## Expanding the ESLint configuration
+  - [Installation](#installation})
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [tests](#tests)
+  - [Questions](#questions)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  ## Installation
+
+  N/A
+
+  ## Usage
+  Navigate to the webpage and use the links to navigate between pages.
+
+  ## Apache 2.0 License
+
+  Copyright [yyyy] [name of copyright owner]
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+
+  https://www.apache.org/licenses/LICENSE-2.0
+
+  ## Contributing
+
+  N/A
+
+  ## Tests
+
+  N/A
+
+  ## Questions
+
+  For questions please contact us at https://github.com/Jpeterson1118 or at peterson.jacob13@protonmail.com.
+
