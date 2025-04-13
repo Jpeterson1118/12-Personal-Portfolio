@@ -3,6 +3,7 @@ import basicas from './Roberto-Cestas-basicas.png'
 import vehicle from './Cmnd-Line-Vechicle-Builder.png'
 import readme from './Cmnd-Line-Readme-Generator.png'
 import watch from './just-watch-it.png'
+import tracker from './employee-tracker.png'
 
 const projects = [
     {
@@ -38,7 +39,7 @@ const projects = [
     {
         id: 4,
         projectName: 'Employee Tracker',
-        imagePath: './Employee-Tracker.png',
+        imagePath: `${tracker}`,
         altText: 'A command line application',
         description: 'Command prompt application utilizing psql and inquirer allowing users to build an employee database tracking salary, employee positions, manager, and department assignments.',
         repo: 'https://github.com/Jpeterson1118/10-challenge-employee-tracker',
