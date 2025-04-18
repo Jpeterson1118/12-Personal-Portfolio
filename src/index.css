@@ -1,14 +1,19 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-:root {
+#root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  height: 100%;
+  height: 100hv;
   width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
+  
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -25,18 +30,27 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   width: 100%;
   min-width: 320px;
+  min-height: 100vh;
 }
 
 main {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #c5cbd3;
+  background-color: #283845;
+  min-height: 90vh;
 }
 
 h1 {
@@ -55,12 +69,33 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+footer{
+  border-top: solid 5px rgb(176, 151, 11);
+}
+
+.header {
+  justify-content: space-between;
+  height: 10rem;
+  border-bottom: solid rgb(176, 151, 11) 5px;
+}
+
+.header h1{
+  align-self: center;
+  margin-left: 1.5rem;
+}
+
+.nav{
+  margin-right: .7rem;
 }
 
 .link-image {
@@ -71,15 +106,74 @@ button:focus-visible {
   max-width: 20%;
 }
 
+.card {
+  width: 40%;
+}
+
+.resume img {
+  max-width: 80%;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 880px) {
+  .card {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .card {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  .header {
+    justify-content: center;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .card {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .portfolio {
+    width: 100%;
+  }
+
+  .card-container {
+    width: 100%;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    width: 100%;
+  }
+}
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }

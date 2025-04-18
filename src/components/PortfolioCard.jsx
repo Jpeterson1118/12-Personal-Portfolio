@@ -1,6 +1,6 @@
 export default function Card({ project }) {
     return (
-      <div className="card m-4" style={{ width: '40%' }}>
+      <div className="card m-4">
         <a href={project.url}><img src={project.imagePath} className="card-img-top portfolio-image" alt={project.projectName} style={{ height: '200px', objectFit: 'cover' }} /></a>
         <div className="card-body">
           <h5 className="card-title">{project.projectName}</h5>
