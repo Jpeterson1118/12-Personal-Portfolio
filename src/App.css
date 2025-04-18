@@ -18,6 +18,14 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  color: #c5cbd3;
+  background-color: #283845;
+  min-height: 90vh;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
