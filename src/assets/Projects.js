@@ -1,5 +1,5 @@
-import fitJourny from './fit-journey-Homepage.png'
-import basicas from './Roberto-Cestas-basicas.png'
+import fitJourny from './Fit-Journey-Homepage.png'
+import basicas from './Roberto-Cestas-Basicas.png'
 import vehicle from './Cmnd-Line-Vechicle-Builder.png'
 import readme from './Cmnd-Line-Readme-Generator.png'
 import watch from './just-watch-it.png'
