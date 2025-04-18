@@ -1,5 +1,5 @@
 import gitLogo from '../assets/github-mark-white.png'
-import Linkdin from '../assets/Li-In-Bug.png'
+import Linkdin from '../assets/LI-In-Bug.png'
 
 
 export default function Footer() {
